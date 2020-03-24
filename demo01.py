@@ -61,6 +61,18 @@ print (type({}))   #字典 dict'''
 
 
 
-a =input("请输入：")
-b =input("请输入：")
-print("两段字段的长度是",len(a+b))
+# a =input("请输入：")
+# b =input("请输入：")
+# print("两段字段的长度是",len(a)+len(b))
+
+
+
+
+# 元组 下标，从0开始编号
+
+a =("曾宪法",2333,23.23,"哈哈哈",True,"哈哈哈","哈哈哈","哈哈哈","哈哈哈","哈哈哈",False)
+# print(a[3])
+
+print (a.count("哈哈哈"))
+
+print(a.index(True))
