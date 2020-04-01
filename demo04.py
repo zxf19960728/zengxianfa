@@ -158,13 +158,28 @@
 #         continue   #continue 跳出本次循环 
 #     print(i)
     
-def chengfa(a,b):
-    """两个数相乘"""
-    if type(a) is int and type(b) is int:
-        print(a*b)
+# def chengfa(a,b):
+#     """两个数相乘"""
+#     if type(a) is int and type(b) is int:
+#         print(a*b)
+#     else:
+#         print("您的输入有误，请输入整数！")
 
 
 
-e =int(input("请输入:"))
-d =int(input("请输入:"))
-chengfa(e,d
+# e =int(input("请输入:"))
+# d =int(input("请输入:"))
+# chengfa("哈",23)
+
+# a =[1,2,3,4,1,2,1]
+# x =a.index(2) #x=1
+# print(x)
+# if x ==1:
+# return a[x]
+
+
+try:
+    print("bbaba "+1)
+except:
+    print("写错了")
+    

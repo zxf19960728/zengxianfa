@@ -61,15 +61,16 @@
 
 
 
-# # # # a =[1,2,3,4,"哈哈","嘻嘻",True,False]
-# # # # a.append("append1")
-# # # # a.append("append2")
-# # # # print(a)
-# # # # a.insert(4,"insert")
-# # # # print(a)
-# # # # b =a.pop(5)
+a =[1,2,3,4,"哈哈","嘻嘻",True,False]
+a.append("append1")
+a.append("append2")
+print(a)
+a.insert(4,"insert")
+print(a)
+# b =a.pop(5)
 # # # # print(a)
 # # # # print(b)
+
 
 
 
@@ -123,9 +124,9 @@
 # print(a)
 # print(type(a))
 
-name =(input("请输入你的姓名："))
-age =(input("请输入你的年龄："))
-sex =(input("请输入你的性别:"))
-useinfo ={}
-useinfo.update(name=name,age=age,sex=sex)
-print(useinfo)
+# name =(input("请输入你的姓名："))
+# age =(input("请输入你的年龄："))
+# sex =(input("请输入你的性别:"))
+# useinfo ={}
+# useinfo.update(name=name,age=age,sex=sex)
+# print(useinfo)
