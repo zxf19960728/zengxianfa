@@ -155,7 +155,29 @@
 # print("输出input的值",len(a)+len(b))
 
 
-a = str(6)
-b =str(10)
-print(a+b)
-print(type(a+b))
+# a = int(6)
+# b =int(10)
+# print(a+b)
+# print(type(a+b))
+
+a =(1,2,3,4,5,6,"思考","哈哈","哈哈",True,False,2.333,)
+print(a[1])
+xx =(a[:3])
+print(xx)
+print(a.index(3))
+print(a.count("哈哈"))
+
+'''
+b =[1,2,3,4,5,6,"思考","哈哈",True,False,2.333]
+print(b)
+print(b[0])
+b.pop(2)
+print(b)
+b.append("测试")
+print(b)
+b.insert(0,"人才")
+print(b)
+
+b.pop(5)
+print(b)
+'''
