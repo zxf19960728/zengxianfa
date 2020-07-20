@@ -160,12 +160,12 @@
 # print(a+b)
 # print(type(a+b))
 
-a =(1,2,3,4,5,6,"思考","哈哈","哈哈",True,False,2.333,)
-print(a[1])
-xx =(a[:3])
-print(xx)
-print(a.index(3))
-print(a.count("哈哈"))
+# a =(1,2,3,4,5,6,"思考","哈哈","哈哈",True,False,2.333,)
+# print(a[1])
+# xx =(a[:3])
+# print(xx)
+# print(a.index(3))
+# print(a.count("哈哈"))
 
 '''
 b =[1,2,3,4,5,6,"思考","哈哈",True,False,2.333]
@@ -181,3 +181,14 @@ print(b)
 b.pop(5)
 print(b)
 '''
+
+
+
+c= str(input("请输入“我爱你”，否则你就是猪:"))
+if c == "我爱你":
+    print ("我也爱你")
+elif c == "你才是猪":
+    print("哈哈")
+else:
+    print ("你是猪")
+
