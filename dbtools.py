@@ -47,3 +47,6 @@ class Db:
     # b= input("请输入sql修改语句：")
     # xg=xiugai(b)
     # print(xg)
+
+
+    测试测试
