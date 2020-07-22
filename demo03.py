@@ -40,7 +40,7 @@
 # # # a.extend(xx)
 # # # print(a)
 # # # a.insert(0,"我爱你")
-# # # print(a)
+print(a)
 
 # # # e =a.remove("张三")#  remove,remove,remove,remove,remove删除某个值，跟pop不一样，pop是剪切
 # # # print(e)
