@@ -198,8 +198,9 @@ for i in range(1,10):
 #         print(j)
 
 
-# fruits = ['banana', 'apple',  'mango']
+fruits = ['banana', 'apple',  'mango']
 # for index in range(len(fruits)):
 #     print('当前水果 :', fruits[index])
- 
-# print("Good bye!")
+for i in fruits:
+    print("当前水果："+i)
+print("Good bye!")
