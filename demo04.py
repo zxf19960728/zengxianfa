@@ -53,7 +53,7 @@
 #     print("+1",a)
 #     a =a+1
 
- high={}
+#  high={}
 # low={}
 # studentlist = ["张三","李四","王五","小六","高琪","兰南巴","吴勇","狗十","王麻子","刘峰"]
 # a =0
@@ -62,11 +62,11 @@
 #     a =a +1
 #     chengji =int(input("请输入"+studentlist[a]+"成绩:"))
 #     if chengji>=60:
-        high[studentlist[a]]=chengji
-    else:
-        low[studentlist[a]] =chengji
-    a =a+1
-print("大于60的：",high)
+#         high[studentlist[a]]=chengji
+#     else:
+#         low[studentlist[a]] =chengji
+#     a =a+1
+# print("大于60的：",high)
 # print("小于60的：",low)
 
 
@@ -100,10 +100,11 @@ print("大于60的：",high)
 #     print(i)
 
 
-# for i in range(1,10):
-#     for j in range(1,i+1):
-#         print(i,"X",j,"=",i*j,end=" ")
-#     print()
+for i in range(1,10):
+    for j in range(1,10):
+        print(i,j)
+        # print(i,"X",j,"=",i*j,end=" ")
+    print()
 
 
 
@@ -188,3 +189,17 @@ print("大于60的：",high)
 
 
 
+
+
+
+
+# for i in range(1,10):
+#     for j in range(1,10):
+#         print(j)
+
+
+# fruits = ['banana', 'apple',  'mango']
+# for index in range(len(fruits)):
+#     print('当前水果 :', fruits[index])
+ 
+# print("Good bye!")
