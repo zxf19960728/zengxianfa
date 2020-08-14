@@ -1,27 +1,11 @@
-# import time
-# import random
-# b=[]
-# c=[]
-# d =0
-# while d<10:
-#     a=random.randint(1,10)
-#     if a>5:
-#         b.append(a)
-#     else:
-#         c.append(a)
-#     d =d+1 
-# print(b)
-# print(c)
-       
+import pymysql 
+"""
+导包
+"""
 
-# print(a)
-
-
-
-import pymysql
-
-db=pymysql.connect(host="127.0.0.1",user="root",password="123456",db="zxftest")
-cur=db.cursor()
-cur.execute("select * from t_studnet")
-res =cur.fetchall()
-print(res)
+test =pymysql.connect(host="111.229.214.158",user="root",password="123456",db="ZXF")
+cursor = test.cursor() #获取游标
+cursor.execute("select * from t_admin;")
+res =cursor.fetchall()
+for i in res:
+    print(i)

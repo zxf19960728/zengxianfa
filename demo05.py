@@ -38,10 +38,8 @@ class Girlfriend():
 
 
 class Nvpenyou(Girlfriend):
-    pass
-    # def work(self):
-    #     print("打针")
-
+    def work(self):
+        print("啪啪啪")
 
 lisi =Nvpenyou("男","178","90","短发","26")
 lisi.chuyi()

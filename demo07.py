@@ -1,5 +1,5 @@
 # import  dbtools
-from dbtools import Db
+# from dbtools import Db
 import requests
 
 # db=Db("111.229.214.158","root","123456","zxftest")
@@ -13,7 +13,7 @@ import requests
 #     print(i)
 url = "http://192.144.148.91:2333/login"
 
-payload = "{\r\n\"username\":\"langjin\", \r\n\"password\":\"lj123456\" \r\n}"
+payload = "{\r\n\"username\":\"langjn\", \r\n\"password\":\"lj123456\" \r\n}"
 headers = {
     'Content-Type': "application/json",
     'cache-control': "no-cache",
